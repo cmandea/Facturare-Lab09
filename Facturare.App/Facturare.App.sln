@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facturare.App", "Facturare.App.csproj", "{454A641C-51A1-49E1-A944-DA2AF1240BB8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D1D21AA8-2DF4-468E-A5C8-6ECF9BE14DBB} = {D1D21AA8-2DF4-468E-A5C8-6ECF9BE14DBB}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facturare.Lib", "..\Facturare.Lib\Facturare.Lib.csproj", "{D1D21AA8-2DF4-468E-A5C8-6ECF9BE14DBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{454A641C-51A1-49E1-A944-DA2AF1240BB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{454A641C-51A1-49E1-A944-DA2AF1240BB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{454A641C-51A1-49E1-A944-DA2AF1240BB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{454A641C-51A1-49E1-A944-DA2AF1240BB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1D21AA8-2DF4-468E-A5C8-6ECF9BE14DBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1D21AA8-2DF4-468E-A5C8-6ECF9BE14DBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1D21AA8-2DF4-468E-A5C8-6ECF9BE14DBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1D21AA8-2DF4-468E-A5C8-6ECF9BE14DBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0998A47-B9DD-4EE1-B521-7C8E7D66BC64}
+	EndGlobalSection
+EndGlobal
